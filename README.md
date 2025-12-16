@@ -1,6 +1,6 @@
 # CI-CD-Actions-DockerHUB-Argo
 
-**CI/CD d'une application flask en utilisant Github Actions pour push des images Docker et les déployer avec Kubernetes et Argo CD**
+**CI/CD d'une application flask en utilisant Github Actions pour push des images Docker et les déployer avec Kubernetes et Argo CD**  
 ![Pipeline](img/workflow.png)
 
 ## Contexte - Pipeline GitOps intégrant DevOps
@@ -54,5 +54,7 @@
     PATH: k8s
     ```
 
-* Résultat attendu
+* Résultat attendu sur Argo cd
 ![img/flask-appArgocd.png](img/flask-appArgocd.png)
+
+* Vérifier que l'application flask fonctionne et utilise bien les 3 pods: aller sur `localhost:30007` et rafraichir la page pour vérifier que le nom du pod utilisé change (Load balancing des pods)

@@ -60,6 +60,10 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      # Install cosign before signature
+      - name: Install cosign 
+        uses: sigstore/cosign-installer@v3.5.0
+      
       # Sign the Docker image to guarantee its integrity and provenance after push 
       - name: Sign the published Docker image
         if: ${{ github.event_name != 'pull_request' }}

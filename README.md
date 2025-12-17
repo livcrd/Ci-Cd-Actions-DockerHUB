@@ -58,3 +58,4 @@
 ![img/flask-appArgocd.png](img/flask-appArgocd.png)
 
 * Vérifier que l'application flask fonctionne et utilise bien les 3 pods: aller sur `localhost:30007` et rafraichir la page pour vérifier que le nom du pod utilisé change (Load balancing des pods)
+* Sur Argo cd, SYNC POLICY peut être mis sur manual ou automatic

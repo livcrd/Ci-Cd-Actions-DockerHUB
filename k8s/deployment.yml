@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: docker.io/caimath1/ci-cd-actions-dockerhub-argo:4327383
+        image: docker.io/caimath1/ci-cd-actions-dockerhub-argo:67a4aa1
         ports:
         - containerPort: 5000
         resources:

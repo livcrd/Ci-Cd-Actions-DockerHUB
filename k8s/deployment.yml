@@ -17,9 +17,9 @@ spec:
       containers:
       - name: flask-app
 <<<<<<< HEAD
-        image: docker.io/mazoxxx/ci-cd-actions-dockerhub-argo:0d5ff3e
+        image: docker.io/mazoxxx/ci-cd-actions-dockerhub-argo:de05370
 =======
-        image: docker.io/mazoxxx/ci-cd-actions-dockerhub-argo:0d5ff3e
+        image: docker.io/mazoxxx/ci-cd-actions-dockerhub-argo:de05370
 >>>>>>> 44439383d87161fca23c778981b300c4b48e5767
         ports:
         - containerPort: 5000
